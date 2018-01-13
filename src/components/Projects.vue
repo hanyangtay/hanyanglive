@@ -85,16 +85,16 @@
         <div class="mdc-layout-grid__cell--span-8">
 
             <div class="projects-block" id="computer-vision">  
-              <a v-bind:href="cnn-demo" class="project-title" target="_blank" rel="noopener">
+              <a v-bind:href="cnnDemo" class="project-title" target="_blank" rel="noopener">
               Computer Vision
               </a>
 
               <span class="project-links">
-              <a v-bind:href="cnn-demo" class ="demo" target="_blank" rel="noopener">
+              <a v-bind:href="cnnDemo" class ="demo" target="_blank" rel="noopener">
                 DEMO
               </a>
               &nbsp; &nbsp;
-              <a v-bind:href="cnn-github" target="_blank" rel="noopener">
+              <a v-bind:href="cnnGithub" target="_blank" rel="noopener">
               <img v-bind:src="github" class="projects-github-icon" />
               </a>
               </span>
@@ -102,7 +102,7 @@
               <h4> Concept: </h4>
               Trained several convolutional neural networks to classifiy images from the CIFAR-10 dataset.
               <br /><br />
-              <a v-bind:href="cnn-demo" target="_blank" rel="noopener">
+              <a v-bind:href="cnnDemo" target="_blank" rel="noopener">
               <img v-bind:src="cnn" class="projects-images">
               </a>
               <h4>Features: </h4>
@@ -121,16 +121,16 @@
             </div>
         
             <div class="projects-block" id="twitter">  
-              <a v-bind:href="twitter-demo" class="project-title" target="_blank" rel="noopener">
+              <a v-bind:href="twitterDemo" class="project-title" target="_blank" rel="noopener">
               Twitter
               </a>
 
               <span class="project-links">
-              <a v-bind:href="twitter-demo" class ="demo" target="_blank" rel="noopener">
+              <a v-bind:href="twitterDemo" class ="demo" target="_blank" rel="noopener">
                 DEMO
               </a>
               &nbsp; &nbsp;
-              <a v-bind:href="twitter-github" target="_blank" rel="noopener">
+              <a v-bind:href="twitterGithub" target="_blank" rel="noopener">
               <img v-bind:src="github" class="projects-github-icon" />
               </a>
               </span>
@@ -138,7 +138,7 @@
               <h4> Concept: </h4>
               I copied Twitter with Ruby on Rails to learn web development.
               <br /><br />
-              <a v-bind:href="twitter-demo" target="_blank" rel="noopener">
+              <a v-bind:href="twitterDemo" target="_blank" rel="noopener">
               <img v-bind:src="twitter" class="projects-images">
               </a>
               <h4>Features: </h4>
@@ -156,16 +156,16 @@
             </div>
 
             <div class="projects-block" id="messenger">  
-              <a v-bind:href="messenger-demo" class="project-title" target="_blank" rel="noopener">
+              <a v-bind:href="messengerDemo" class="project-title" target="_blank" rel="noopener">
               Messenger
               </a>
 
               <span class="project-links">
-              <a v-bind:href="messenger-demo" class ="demo" target="_blank" rel="noopener">
+              <a v-bind:href="messengerDemo" class ="demo" target="_blank" rel="noopener">
                 DEMO
               </a>
               &nbsp; &nbsp;
-              <a v-bind:href="messenger-github" target="_blank" rel="noopener">
+              <a v-bind:href="messengerGithub" target="_blank" rel="noopener">
               <img v-bind:src="github" class="projects-github-icon" />
               </a>
               </span>
@@ -174,7 +174,7 @@
 
               Simple live chat app. Leave a message in the depths of the internet. Say hi.
               <br /><br />
-              <a v-bind:href="messenger-demo" target="_blank" rel="noopener">
+              <a v-bind:href="messengerDemo" target="_blank" rel="noopener">
               <img v-bind:src="messenger" class="projects-images">
               </a>
               <h4>Features: </h4>
@@ -191,16 +191,16 @@
 
 
             <div class="projects-block" id="maps">  
-              <a v-bind:href="maps-demo" class="project-title" target="_blank" rel="noopener">
+              <a v-bind:href="mapsDemo" class="project-title" target="_blank" rel="noopener">
               Maps
               </a>
 
               <span class="project-links">
-              <a v-bind:href="maps-demo" class ="demo" target="_blank" rel="noopener">
+              <a v-bind:href="mapsDemo" class ="demo" target="_blank" rel="noopener">
                 DEMO
               </a>
               &nbsp; &nbsp;
-              <a v-bind:href="maps-github" target="_blank" rel="noopener">
+              <a v-bind:href="mapsGithub" target="_blank" rel="noopener">
               <img v-bind:src="github" class="projects-github-icon" />
               </a>
               </span>
@@ -211,7 +211,7 @@
 
               <br /><br />
 
-              <a v-bind:href="maps-demo" target="_blank" rel="noopener">
+              <a v-bind:href="mapsDemo" target="_blank" rel="noopener">
               <img v-bind:src="maps" class="projects-images">
               </a>
 
@@ -256,20 +256,20 @@ export default {
       github: require('../assets/images/footer/github.png'),
 
       maps: require('../assets/images/showcase/maps.jpg'),
-      maps-demo: "https://github.com/hanyangtay/asteria",
-      maps-github: "https://github.com/hanyangtay/asteria",
+      mapsDemo: "https://github.com/hanyangtay/asteria",
+      mapsGithub: "https://github.com/hanyangtay/asteria",
 
       cnn: require('../assets/images/showcase/cnn.jpg'),
-      cnn-demo: "https://github.com/hanyangtay/neural-networks",
-      cnn-github: "https://github.com/hanyangtay/neural-networks",
+      cnnDemo: "https://github.com/hanyangtay/neural-networks",
+      cnnGithub: "https://github.com/hanyangtay/neural-networks",
 
       twitter: require('../assets/images/showcase/twitter.jpg'),
-      twitter-demo: "https://twitter-hanyang.herokuapp.com",
-      twitter-github: "https://github.com/hanyangtay/twitter",
+      twitterDemo: "https://twitter-hanyang.herokuapp.com",
+      twitterGithub: "https://github.com/hanyangtay/twitter",
 
       messenger: require('../assets/images/showcase/messenger.jpg'),
-      messenger-demo: "https://messenger-hanyang.herokuapp.com",
-      messenger-github: "https://github.com/hanyangtay/messenger"
+      messengerDemo: "https://messenger-hanyang.herokuapp.com",
+      messengerGithub: "https://github.com/hanyangtay/messenger"
     }
   }
   

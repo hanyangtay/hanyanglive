@@ -55,15 +55,12 @@ export default {
   padding-top: 6.5em;
 }
 
-<<<<<<< cd4a8617f85d3214757e820366c07b72b2d432b5
 @media screen and (max-width: 588px) {
   .content-wrapper{
     padding-top: 11.5em;
   }
 }
 
-=======
->>>>>>> 1.0
 .text-wrapper{
   padding-left: 2.5em;
   padding-right: 2em;

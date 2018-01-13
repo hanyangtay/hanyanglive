@@ -6,11 +6,8 @@
         
         <div class="mdc-layout-grid__cell--span-1"></div>
         <div class="mdc-layout-grid__cell--span-4">
-<<<<<<< cd4a8617f85d3214757e820366c07b72b2d432b5
           <img alt="contact" class="cover-photo" 
-=======
           <img alt="han yang" class="cover-photo" 
->>>>>>> 1.0
             v-bind:src="coverPhoto" />
         </div>
         

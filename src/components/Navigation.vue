@@ -56,11 +56,7 @@ export default {
   left: 0;
   right: 0;
   background-color: #fff;
-<<<<<<< cd4a8617f85d3214757e820366c07b72b2d432b5
-  min-height: 6em;
-=======
   height: 6em;
->>>>>>> 1.0
   transition: all .4s;
   padding-top: 1em;
   margin-left: auto;
@@ -83,15 +79,12 @@ a:hover {
   margin-right: 2em;
 }
 
-<<<<<<< cd4a8617f85d3214757e820366c07b72b2d432b5
 @media screen and (max-width: 588px) {
   .right{
     float: left;
   }
 }
 
-=======
->>>>>>> 1.0
 .scrolled {
   transform: translateY(-6em);
 }

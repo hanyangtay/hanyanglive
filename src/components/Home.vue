@@ -5,12 +5,7 @@
         
         <div class="mdc-layout-grid__cell--span-1"></div>
         <div class="mdc-layout-grid__cell--span-4">
-<<<<<<< cd4a8617f85d3214757e820366c07b72b2d432b5
-          <img alt="home" class="cover-photo"
-=======
-          <img alt="han yang" class="cover-photo"
->>>>>>> 1.0
-            v-bind:src="coverPhoto" />
+          <img alt="han yang" class="cover-photo" v-bind:src="coverPhoto" />
         </div>
         
         <div class="mdc-layout-grid__cell--span-6 text-wrapper">
@@ -74,12 +69,8 @@ export default {
 
 </script>
 
-<<<<<<< cd4a8617f85d3214757e820366c07b72b2d432b5
 <style scoped>
 h1 {
   line-height: 1em;
 }
 </style>
-
-=======
->>>>>>> 1.0
