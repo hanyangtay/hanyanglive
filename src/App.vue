@@ -5,13 +5,13 @@
 
 
   <footer>
-    <a target="_blank" rel="noopener" href="https://github.com/hanyangtay">
+    <a target="_blank" rel="noopener" href="https://github.com/hanyangtay/messenger">
        <img id="footer_github" src="./assets/images/footer/github.png" alt="Github" />
     </a>
 
     &nbsp;
 
-    <a id="footer_email" href="mailto:let@hanyang.live">
+    <a id="footer_email" href="mailto:htay@wesleyan.edu">
        <i class="material-icons">email</i>
     </a>
 

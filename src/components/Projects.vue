@@ -62,7 +62,7 @@
                 <a href="#maps">
                   <div class="spinner"></div>
                   <div class="img">
-                    <i class="material-icons project_icon">local_taxi</i>
+                    <i class="material-icons project_icon">near_me</i>
                   </div>
                   <div class="info">
                   <div class="info-back">
@@ -136,7 +136,7 @@
               </span>
               <hr>
               <h4> Concept: </h4>
-              I copied Twitter with Ruby on Rails to learn web development.
+              Twitter with my own UI concept.
               <br /><br />
               <a v-bind:href="twitterDemo" target="_blank" rel="noopener">
               <img v-bind:src="twitter" class="projects-images">
@@ -180,8 +180,9 @@
               <h4>Features: </h4>
               <ul>
                 
-                <li> Live. Try using two accounts and talk to yourself. </li>
+                <li> Live. </li>
                 <li> View users who are currently online. </li>
+                <li> Open a few tabs and talk to yourself. </li>
               </ul>
               
               <h4>Tools used:</h4>
@@ -256,8 +257,8 @@ export default {
       github: require('../assets/images/footer/github.png'),
 
       maps: require('../assets/images/showcase/maps.jpg'),
-      mapsDemo: "https://github.com/hanyangtay/asteria",
-      mapsGithub: "https://github.com/hanyangtay/asteria",
+      mapsDemo: "https://maps-hanyang.herokuapp.com/",
+      mapsGithub: "https://github.com/hanyangtay/maps",
 
       cnn: require('../assets/images/showcase/cnn.jpg'),
       cnnDemo: "https://github.com/hanyangtay/neural-networks",
