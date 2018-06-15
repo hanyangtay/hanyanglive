@@ -17,7 +17,7 @@
           <h2> Contact </h2>
           I'd love to chat! About anything, really. <br /><br />
           
-          Feel free to send me an e-mail at <a target="_blank" rel="noopener" href="mailto:let@hanyang.live">let@hanyang.live</a>. 
+          Feel free to send me an e-mail at <a target="_blank" rel="noopener" href="mailto:htay@wesleyan.edu">htay@wesleyan.edu</a>. 
           <br />You may also find me at any of the social media links below.
           <br /><br />
           Thanks for stopping by, and let me know if there is anything I can do to help.

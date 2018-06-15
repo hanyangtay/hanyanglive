@@ -5,7 +5,7 @@
 
 
   <footer>
-    <a target="_blank" rel="noopener" href="https://github.com/hanyangtay/messenger">
+    <a target="_blank" rel="noopener" href="https://github.com/hanyangtay">
        <img id="footer_github" src="./assets/images/footer/github.png" alt="Github" />
     </a>
 
@@ -47,6 +47,7 @@ export default {
   --link-colour: #d81b60;
   --mdc-theme-primary: #fafafa;
   --mdc-theme-text-primary-on-primary: #383838;
+  --mdc-theme-on-primary: #383838;
 }
 
 /* Layout */
