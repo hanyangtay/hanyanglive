@@ -20,7 +20,7 @@
           <br /><br />
           My other lifelong pursuits include music and <a target="_blank" rel="noopener" href="https://www.instagram.com/hanyangtay">art</a>. Watch me in twenty years.
           <br /><br />
-          <a href="https://docs.google.com/document/d/1b8n4lGHxyCqcvz8ju6Oi5d9HHYIkizBhndt9yToCcaw/edit?usp=sharing"
+          <a href="https://docs.google.com/document/d/1xugEHZ3HudQRLnrmNEK4EJ7FyQqxmhiiM-SQqSJWoOc/edit?usp=sharing"
             rel="noopener" target="_blank">
           <button class="mdc-button mdc-button--raised mdc-ripple-surface">
             <i class="material-icons">description</i>
